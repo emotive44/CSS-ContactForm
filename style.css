@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+form{
+    width: 50%;
+    background: whitesmoke;
+    margin: 5% auto; 
+    padding: 1%;
+}
+
+input, select, textarea{
+    width: 65%;
+    box-sizing: border-box;
+    margin-top: 2%;
+    outline: none;
+    padding: 5px;
+}
+
+div{
+    padding-bottom: 2%;
+    margin-left: 3%;
+}
+
+h1, p{
+    padding-left: 5%;
+    font-weight: bold;
+}
+
+hr{
+    width: 97%;
+    margin: 0 auto;
+}
+
+label{
+    padding-right: 2%;
+}
+
+.messages{
+    margin-left: 2.4rem;
+}
+
+.messages textarea{
+    width: 67%;
+}
+
+.messages > label{
+    position: relative;
+    bottom: 9rem;
+}
+
+.subjects{
+    margin-left: 2.8rem;
+}
+
+.subjects select{
+    width: 68%;
+}
+
+.sends{
+    width: 25%;
+    padding: 1%;
+    background: red;
+    color: white;
+    border-radius: 10px;
+    margin-left: 6.9rem;
+}
